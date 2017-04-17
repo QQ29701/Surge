@@ -6,6 +6,7 @@ https://raw.githubusercontent.com/Unbinilium/Surge-SSEncrypt-Module/master/SSEnc
 ```
 
 ## Example Conf
+- It is Only the Proxy Part, and You're Suppose to fill **SeverIP**、**ServerPort**、**EncryptMethod** and **Paddword** Manually
 ```txt
 [Proxy]
 Shadowsocks = custom,ServerIP,ServerPort,EncryptMethod,Password,https://raw.githubusercontent.com/Unbinilium/Surge-SSEncrypt-Module/master/SSEncrypt.module
