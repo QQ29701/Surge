@@ -13,7 +13,7 @@ Shadowsocks = custom,ServerIP,ServerPort,EncryptMethod,Password,https://raw.gith
 ```
 
 ## Notice
-- Now Only Supported This Encrypt Method
+- Now Only Supported These Encryption Method
 ```encryption
 aes-128-cfb
 aes-128-ofb
