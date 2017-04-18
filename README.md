@@ -1,5 +1,6 @@
 # Surge APP Shadowsocks Encrypt Support Module
-## USEAGE
+
+## Useage
 - Download The SSEncrypt Module form URL Below
 ```url
 https://raw.githubusercontent.com/Unbinilium/Surge-SSEncrypt-Module/master/SSEncrypt.module
