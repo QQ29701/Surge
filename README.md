@@ -15,6 +15,13 @@ Shadowsocks = custom,ServerIP,ServerPort,EncryptMethod,Password,https://raw.gith
 ## Notice
 - Now Only Supported These Encryption Method
 ```encryption
+table
+bf-cfb
+des-cfb
+cast5-cfb
+camellia-128-cfb
+camellia-192-cfb
+camellia-256-cfb
 aes-128-cfb
 aes-128-ofb
 aes-192-cfb
