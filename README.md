@@ -16,7 +16,6 @@ Shadowsocks = custom,ServerIP,ServerPort,EncryptMethod,Password,https://raw.gith
 ## Notice
 - Now Only Supported These Encryption Method
 ```encryption
-table
 rc4
 rc4-md5
 salsa20
