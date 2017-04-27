@@ -14,25 +14,25 @@ Shadowsocks = custom,ServerIP,ServerPort,EncryptMethod,Password,https://raw.gith
 ```
 
 ## Notice
-- Now Only Supported These Encryption Method
-```encryption
+- Now Only Supported these Encrypt Method
+```encrypt
 rc4
 rc4-md5
+rc2-cfb
+bf-cfb
+des-cfb
+idea-cfb
+seed-cfb
+cast5-cfb
+camellia-128-cfb
+camellia-192-cfb
+camellia-256-cfb
 aes-128-cfb
 aes-192-cfb
 aes-256-cfb
 aes-128-ctr
 aes-192-ctr
 aes-256-ctr
-bf-cfb
-camellia-128-cfb
-camellia-192-cfb
-camellia-256-cfb
-cast5-cfb
-des-cfb
-idea-cfb
-rc2-cfb
-seed-cfb
 salsa20
 chacha20
 chacha20-ietf
@@ -41,3 +41,14 @@ aes-192-gcm
 aes-256-gcm
 chacha20-ietf-poly1305
 ```
+
+## Suggestions
+- For Better Security, these Encrypt Method are Supported <a href="https://en.wikipedia.org/wiki/Authenticated_encryption" target="_blank">AEAD</a>(Authenticated Encryption with Associated Data)
+```encrypt
+aes-128-gcm
+aes-192-gcm
+aes-256-gcm
+chacha20-ietf-poly1305
+```
+## Manual for Surge App
+- View Official Surge <a href="https://manual.nssurge.com/" target="_blank">Manual Guide </a>
