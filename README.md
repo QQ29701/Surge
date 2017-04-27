@@ -50,5 +50,6 @@ aes-192-gcm
 aes-256-gcm
 chacha20-ietf-poly1305
 ```
+
 ## Manual for Surge App
 - View Official Surge <a href="https://manual.nssurge.com/" target="_blank">Manual Guide </a>
