@@ -3,7 +3,7 @@
 ## Usage
 - Download The SSEncrypt Module form URL Below
 ```url
-https://raw.githubusercontent.com/Unbinilium/Surge-SSEncrypt-Module/master/SSEncrypt.module
+https://raw.githubusercontent.com/Unbinilium/Surge/master/SSEncrypt.module
 ```
 
 ## Example Conf
