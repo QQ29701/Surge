@@ -12,7 +12,7 @@ https://raw.githubusercontent.com/Unbinilium/Surge/master/SSEncrypt.module
 [Proxy]
 Shadowsocks = custom,ServerIP,ServerPort,EncryptMethod,Password,https://raw.githubusercontent.com/Unbinilium/Surge/master/SSEncrypt.module
 ```
-— If You're using <a href="https://github.com/shadowsocks/simple-obfs" target="_blank">simple-obfs</a>, Please try this example after fill **ObfsMethod** and **ObfsHost** Manually
+- If You're using <a href="https://github.com/shadowsocks/simple-obfs" target="_blank">simple-obfs</a>, Please try this example after fill **ObfsMethod** and **ObfsHost** Manually
 ```conf
 custom,ServerIP,ServerPort,EncryptMethod,Password,https://raw.githubusercontent.com/Unbinilium/Surge/master/SSEncrypt.module,obfs=ObfsMethod,obfs-host=ObfsHost
 ```
@@ -45,12 +45,12 @@ aes-192-gcm
 aes-256-gcm
 chacha20-ietf-poly1305
 ```
-— Now Supported these Obfs Method
+- Now Supported these Obfs Method
 ```obfs
 http
 tls
 ```
-— Also, the default Obfs Host is here. Change it if you like. Suggest to Use CDN Domain which is not Blocked
+- Also, the default Obfs Host is here. Change it if you like. Suggest to Use CDN Domain which is not Blocked
 ```obfs
 cloudfront.com
 ```
@@ -63,8 +63,8 @@ aes-192-gcm
 aes-256-gcm
 chacha20-ietf-poly1305
 ```
-— Add a TLS Obfs and Change the default Obfs Host
-— Try to Use TCP Fast Open by Add that perfix ```,tfo=true``` in the end of the line of the Proxy Part
+- Add a TLS Obfs and Change the default Obfs Host
+- Try to Use TCP Fast Open by Add that perfix ```,tfo=true``` in the end of the line of the Proxy Part
 
 ## Manual for Surge App
 - View Official Surge <a href="https://manual.nssurge.com/" target="_blank">Manual Guide </a>
